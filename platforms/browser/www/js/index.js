@@ -19,18 +19,22 @@
 var app = {
 
     initialize: function() {
+        alert("paso1")
         this.bindEvents();
     },
 
     bindEvents: function() {
+        alert("paso2")
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
 
     onDeviceReady: function() {
+        alert("paso3")
         app.receivedEvent('deviceready');
     },
     
     receivedEvent: function(id) {
+        alert("paso4")
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
