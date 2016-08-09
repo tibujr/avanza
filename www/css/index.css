@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-/* * {
+ * {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -45,7 +45,7 @@ body {
     width:100%;
 }
 
-*.app {
+.app {
     background:url(../img/logo.png) no-repeat center top;
     position:absolute;             
     left:50%;
@@ -109,7 +109,6 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
-*/
 
 
 /*-----  INICIO  ----*/
