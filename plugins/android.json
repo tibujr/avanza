@@ -1,0 +1,72 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "pe.roinet.avanza"
+        }
+    },
+    "dependent_plugins": {}
+}

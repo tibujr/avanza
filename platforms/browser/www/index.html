@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="viewport" content="user-scalable=no, maximum-scale=1, minimum-scale=1, user-scalable=no, initial-scale=1, width=device-width, height=device-height">
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="css/jquery-mobile/jquery.mobile-1.3.2.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/materialize/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="css/paleta.css" />
+    
+    <title>AVANZA</title>
 </head>
 
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">PRUEBA</p>
-            <p class="event received">Device is Ready</p>
-        </div>
-    </div>
+    <section data-role="page" id="inicio" class="pagina">
+        <article data-role="content" style="font-size:0; margin-top: 30%;">
+            <div id="inicio">
+                <div id='onOf' style='display: none;'><div class="icon-wifi-full"></div><div id='bloq_wifi' class="icon-blocked"></div></div>
+                <div class="row" style="text-align: center;"><img src="img/logo_avanza.png"></div>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row" id="cont-login"></div>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </section>
+
+     <section data-role="page" id="primero" class="pagina">
+        <div class="row">
+                <div class="col s12 m6">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                      <a href="#">This is a link</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+     </section>
+
+     <!--JS-->
     <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-mobile/jquery.mobile-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/materialize/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/accion.js"></script>
+    
     <script type="text/javascript">
+        alert("llama initialize")
         app.initialize();
     </script>
 </body>
-
+    
 </html>
